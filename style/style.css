@@ -1,0 +1,30 @@
+:root {
+  --primary: #5a2929;
+  --bg: #fffceb;
+  --primary-focus: #702a0a;
+}
+
+/* font */
+.font-montserrat {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+/* component */
+.btn-primary {
+  background-color: var(--primary) !important;
+  border-color: var(--primary) !important;
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-focus) !important;
+  border-color: var(--bg) !important;
+}
+
+/* navbar */
+.active {
+  color: var(--primary);
+}
+
+.nav-link:hover {
+  color: var(--primary);
+}
